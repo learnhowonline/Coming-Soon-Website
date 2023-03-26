@@ -4,28 +4,20 @@ import learnhowowl from "./static/images/learnhowowl.webp"
 
 function App() {
   return (
-      <div className={"banner flex justify-center items-center w-full h-full xl:h-screen"}>
-          <div className={"w-full max-w-full xl:max-w-4xl"}>
-               <div className={"flex flex-col xl:flex-row justify-around py-5 gap-5 h-full"}>
+      <div className={"banner flex justify-center items-center w-full h-max min-h-screen"}>
+          <div className={"w-full max-w-full lg:max-w-4xl"}>
+               <div className={"flex flex-col lg:flex-row justify-between py-5 gap-5"}>
                   <div className={"flex flex-col justify-center"}>
-                      <div className={"flex flex-col gap-5 px-5 xl:px-0"}>
+                      <div className={"flex flex-col gap-5 px-5 lg:px-0"}>
                           <div className={"flex flex-col"}>
-                            <div className={"flex flex-col gap-5"}>
-                                <div className={"flex flex-col xl:flex-row gap-5 mt-10 xl:mt-0"}>
-                                    <h1 className={"title"}>Learn</h1>
-                                    <span className={"title"}>How<span className={"dots"}>...</span></span>
-                                    <span className={"title"}>Soon</span>
+                            <div className={"flex flex-col gap-1"}>
+                                <div className={"flex flex-col lg:flex-row gap-1 mt-10 lg:mt-0"}>
+                                    <h1 className={"title text-8xl lg:text-6xl"}>Learn</h1>
+                                    <span className={"title text-8xl lg:text-6xl"}>How<span className={"dots"}>...</span></span>
+                                    <span className={"title text-8xl lg:text-6xl"}>Soon</span>
                                 </div>
                                 <div className={"subtitle"}>Knowledge at your fingertips</div>
                             </div>
-                              {/* <h1 className={"title max-w-full flex flex-col gap-5 xl:flex-row xl:gap-0"}>
-                                    <span>Learn</span> <span>How</span>
-                                    <div>
-                                        <span className={"dots"}>...</span>
-                                        <span>soon</span>
-                                    </div>
-                                </h1>
-                              <div className={"subtitle"}>Knowledge at your fingertips</div> */}
                           </div>
                           <div className={"description"}>
                               Get ready to explore thousands of different articles and learn something new. Coming soon.
