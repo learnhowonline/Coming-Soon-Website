@@ -25,7 +25,7 @@ function App() {
                       </div>
                   </div>
                   <div className={"flex justify-center mb-10"}>
-                    <img src={learnhowowl} alt="Learn How to Do Things with Mr. Owl | Learn How"/>
+                    <img src={learnhowowl} alt="Learn How to Do Things with Mr. Owl | Learn How" width={512} height={512} />
                   </div>
               </div> 
           </div>
