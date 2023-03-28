@@ -1,3 +1,5 @@
+$breakpoint-tablet: 1024px;
+
 .banner {
   background-image: url('./static/images/bannerbackground.webp');
   background-repeat: repeat;
@@ -28,6 +30,16 @@
   }
 
   img {
-    //   max-width: 20rem;
+      height: auto;
+      width: 40rem;
   }
+}
+
+@media (max-width: $breakpoint-tablet) {
+.banner {
+    img {
+        height: auto;
+        width: 45rem;
+    }
+}
 }
